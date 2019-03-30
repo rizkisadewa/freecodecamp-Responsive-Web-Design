@@ -1,8 +1,8 @@
 # THIS IS THE CRASH COURSE FROM FREECODECAMP
 This is a template for Web Design, the all of stuff are from freecodecamp.org
 
-# What I learn
-## Basic CSS
+## What I learn
+### Basic CSS
 1. Add Different Padding to Each Side of an Element
 2. Add Different Margins to Each Side of an Element
 3. Use Clockwise Notation to Specify the Padding of an Element
