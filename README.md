@@ -92,3 +92,22 @@ This is a template for Web Design, the all of stuff are from freecodecamp.org
 2. Make an Image Responsive
 3. Make Typography Responsive
 4. Use a Retina Image for Higher Resolution Displays
+
+# CSS Flexbox
+1. Use display- flex to Position Two Boxes
+2. Add Flex Superpowers to the Tweet Embed
+3. Use the flex-direction Property to Make a Row
+4. Apply the flex-direction Property to Create Rows in the Tweet Embed
+5. Use the flex-direction Property to Make a Column
+6. Apply the flex-direction Property to Create a Column in the Tweet Embed
+7. Align Elements Using the justify-content Property
+8. Use the justify-content Property in the Tweet Embed
+9. Align Elements Using the align-items Property
+10. Use the align-items Property in the Tweet Embed
+11. Use the align-self Property
+12. Use the flex-basis Property to Set the Initial Size of an Item
+13. Use the flex-grow Property to Expand Items
+14. Use the flex-shrink Property to Shrink Items
+15. Use the flex-wrap Property to Wrap a Row or Column
+16. Use the order Property to Rearrange Items
+17. Use the flex Shorthand Property
