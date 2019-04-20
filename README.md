@@ -1,8 +1,8 @@
-## THIS IS THE CRASH COURSE FROM FREECODECAMP
+# THIS IS THE CRASH COURSE FROM FREECODECAMP
 This is a template for Web Design, the all of stuff are from freecodecamp.org
 
-## What I learn
-# Basic CSS
+# What I learn
+## Basic CSS
 1. Add Different Padding to Each Side of an Element
 2. Add Different Margins to Each Side of an Element
 3. Use Clockwise Notation to Specify the Padding of an Element
@@ -22,7 +22,7 @@ This is a template for Web Design, the all of stuff are from freecodecamp.org
 17. Add Different Margins to Each Side of an Element
 18. Add Different Padding to Each Side of an Element
 
-# Applied Visual Design
+## Applied Visual Design
 1. Animate Elements at Variable Rates
 2. Animate Elements Continually Using an Infinite Animation Count
 3. Animate Multiple Elements at Variable Rates
@@ -63,7 +63,7 @@ This is a template for Web Design, the all of stuff are from freecodecamp.org
 38. Use the CSS Transform scale Property to Scale an Element on Hover
 39. Use the text-transform Property to Make Text Uppercase
 
-# Applied Accessibility
+## Applied Accessibility
 1. Add a Text Alternative to Images for Visually Impaired Accessibility
 2. Add an Accessible Date Picker
 3. Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information
@@ -87,13 +87,13 @@ This is a template for Web Design, the all of stuff are from freecodecamp.org
 21. Wrap Content in the article Element
 22. Wrap Radio Buttons in a fieldset Element for Better Accessibility
 
-# Responsive Web Design Principles
+## Responsive Web Design Principles
 1. Create a Media Query
 2. Make an Image Responsive
 3. Make Typography Responsive
 4. Use a Retina Image for Higher Resolution Displays
 
-# CSS Flexbox
+## CSS Flexbox
 1. Use display- flex to Position Two Boxes
 2. Add Flex Superpowers to the Tweet Embed
 3. Use the flex-direction Property to Make a Row
