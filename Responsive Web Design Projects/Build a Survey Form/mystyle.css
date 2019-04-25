@@ -1,0 +1,93 @@
+/* Global Style */
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+html, body{
+  font-family: "Varela Round", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #8BC53D;
+}
+
+#title{
+  font-size: 50px;
+}
+
+h1#title{
+  text-align: center;
+  color: #fff;
+}
+
+#form-outer{
+  background-color: #fff;
+  padding: 10px 20px 10px 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#description{
+  text-align: center;
+}
+
+.rowTab{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.labels{
+  text-align: right;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.rightTab{
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field{
+  height: 20px;
+  width: 90%;
+  max-width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.userRatings, input[type="radio"]{
+  float: left;
+  margin-right: 5px;
+}
+
+ul.radio{
+  padding-left: 5px;
+}
+
+.radio{
+  list-style: none;
+}
+
+#submit{
+  background-color: #FF0062;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin-left: 50%;
+  margin-top: 10px;
+  border: 0px solid;
+}
+
+.dropdown{
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}

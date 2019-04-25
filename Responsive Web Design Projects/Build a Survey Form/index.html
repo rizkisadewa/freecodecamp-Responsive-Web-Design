@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="mystyle.css">
+  <title>Build a Survey Form | Hai</title>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <div id="form-outer">
+    <p id="description">We are trying to inform the things that perhaps can improve freeCodeCamp (for us)</p>
+    <form action="https://crossorigin.me/https://freecodecamp.com" id="survey-form" >
+      <div class="rowTab">
+        <div class="labels">
+          <label for="name" id="name-label">* Name: </label>
+        </div>
+        <div class="rightTab">
+          <input autofocus type="text" name="name" id="name" placeholder="Enter your name" class="input-field">
+        </div>
+      </div>
+
+      <div class="rowTab">
+        <div class="labels">
+          <label for="email" id="email-label">* Email: </label>
+        </div>
+        <div class="rightTab">
+          <input autofocus type="email" name="email" id="email" required class="input-field" placeholder="Enter your email" value="">
+        </div>
+      </div>
+
+      <div class="rowTab">
+        <div class="labels">
+          <label for="age" id="number-label">* Age: </label>
+        </div>
+        <div class="rightTab">
+          <input type="number" id="number" min="1" max="100" name="" class="input-field" placeholder="Please enter the number">
+        </div>
+      </div>
+
+      <div class="rowTab">
+        <div class="labels">
+          <label for="currentPost">Which option best describes your current role? </label>
+        </div>
+        <div class="rightTab">
+          <select class="dropdown" id="dropdown" name="currentPost">
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="learner">Full Time Learner</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="rowTab">
+        <div class="labels">
+          <label for="userRating">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+        </div>
+        <div class="rightTab">
+          <ul class="radio">
+            <li class="radio"><label>Definitely <input type="radio" name="radio-button" value="1" class="userRatings"></label></li>
+            <li class="radio"><label>Maybe <input type="radio" name="radio-button" value="2" class="userRatings"></label></li>
+            <li class="radio"><label>Not sure <input type="radio" name="radio-button" value="3" class="userRatings"></label></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rowTab">
+        <div class="labels">
+          <label for="comments">Any comment or suggestion?</label>
+        </div>
+        <div class="rightTab">
+          <textarea id="comments" name="comments" rows="8" cols="20" style="height:50px;resize:vertical;" placeholder="Enter your comment here..."></textarea>
+        </div>
+      </div>
+
+      <button id="submit" type="submit" name="button">Submit</button>
+
+    </form>
+  </div>
+
+</body>
+</html>
